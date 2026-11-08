@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="pt-BR">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Currículo Vagas</title><link rel="stylesheet" href="/styles.css"></head>
+<body>
+  <main class="shell">
+    <header><span class="eyebrow">LOCAL-FIRST · MVP</span><h1>Currículo Vagas</h1><p>Analise uma vaga, gere uma versão direcionada e mantenha sua revisão antes de qualquer candidatura.</p></header>
+    <section class="grid">
+      <form id="vacancy-form" class="card">
+        <div class="card-head"><h2>Nova vaga</h2><span class="badge">sem busca automática</span></div>
+        <label>Cargo<input name="title" placeholder="Ex.: Analista de Planejamento"></label>
+        <label>Empresa<input name="company" placeholder="Nome da empresa"></label>
+        <label>Link da vaga<input name="url" placeholder="https://..."></label>
+        <label>Descrição completa<textarea name="description" rows="14" required placeholder="Cole aqui o texto da vaga..."></textarea></label>
+        <button type="submit">Analisar e gerar currículo</button>
+      </form>
+      <section class="card result" id="result"><div class="empty"><span>01</span><h2>A análise aparecerá aqui</h2><p>O processamento inicial é local e usa apenas o perfil mestre salvo neste projeto.</p></div></section>
+    </section>
+    <section class="card history"><div class="card-head"><h2>Histórico de candidaturas</h2><span class="badge">local</span></div><div id="history"><p class="muted">Nenhuma candidatura registrada.</p></div></section>
+    <section class="card history"><div class="card-head"><h2>Vagas importadas</h2><span class="badge">até 10 por lote</span></div><div id="jobs"><p class="muted">Nenhuma vaga importada.</p></div></section>
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>

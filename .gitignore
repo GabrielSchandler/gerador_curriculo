@@ -1,0 +1,29 @@
+# Dependências e builds
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+# Segredos (nunca vão para o GitHub)
+.env
+.env.*
+!.env.example
+# Cópias de trabalho e caches de ferramentas
+backup/
+.taste-skill/
+.impeccable/
+.openai/
+*.zip
+*.log
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Dados pessoais e gerados (ficam só no computador)
+data/profile.json
+data/jobs.json
+data/applications.json
+incoming-*.json
+public/generated/
+qa-*/
+__pycache__/

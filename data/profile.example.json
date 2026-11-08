@@ -1,0 +1,36 @@
+{
+  "name": "",
+  "location": "",
+  "email": "",
+  "phone": "",
+  "linkedin": "",
+  "availability": "",
+  "education": "",
+  "english": "",
+  "summary": "",
+  "skills": [
+    ""
+  ],
+  "experiences": [
+    {
+      "company": "",
+      "role": "",
+      "period": "",
+      "details": [
+        ""
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "",
+      "url": "",
+      "description": ""
+    }
+  ],
+  "preferences": {
+    "remoteOnly": false,
+    "cltMinimum": "",
+    "pjMinimum": ""
+  }
+}
